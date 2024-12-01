@@ -16,7 +16,7 @@ public class ShoppingListApp {
                 break;
             }
 
-            System.out.print("Add the amount of the item: (type 'x' to end): ");
+            System.out.print("Items still needs to be added to the list: (type 'x' to end): ");
             int amount = Integer.parseInt(scanner.nextLine());
             
             shoppingList.add(amount + "x" + item);

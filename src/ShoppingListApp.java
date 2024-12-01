@@ -9,14 +9,17 @@ public class ShoppingListApp {
         ArrayList<String> shoppingList = new ArrayList<>();
 
         while (true) {
-            System.out.print("Add item (x = exit) ");
+            System.out.print("Add an item to the shopping list (type 'x' to end): ");
             String item = scanner.nextLine();
 
             if (item.equalsIgnoreCase("x")) {
                 break;
             }
 
-            shoppingList.add(item);
+            System.out.print("Add the amount of the item: (type 'x' to end): ");
+            int amount = Integer.parseInt(scanner.nextLine());
+            
+            shoppingList.add(amount + "x" + item);
         }
 
         for (String item : shoppingList) {

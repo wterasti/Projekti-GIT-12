@@ -1,18 +1,18 @@
-## Getting Started
+***Tehtävänanto/Palautus:***
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- Sopikaa ryhmässä, kuka tekee repositoryn ja kutsuu muut jäseniksi. Huom! Lisätkää repositoryn nimeen ryhmänne jotenkin, esim. git-tehtävä-ryhma-12
+- Repositoryn tulee olla julkinen/public.
+- Muut ottavat repositoryn käyttöön. 
+- Projekti, mitä työstetään, pitää olla Java-projekti. Sinänsä projekti voi olla "mitä vaan". 
+- Kaikkien tulee tehdä koodiin muutoksia (voi olla hyvin pieniä muutoksia) ja pushaavat muutokset repositoryyn. Ennen kuin teet muutoksia, muista pullata (tai fetch) projekti itsellesi.
+- Repositoryn historiasta tulee nähdä, että kaikki ryhmäläiset ovat tehneet commitin.
+- Muista commitin järkevä otsikko/kuvaus.
+  
+*Palautus*
 
-## Folder Structure
+Merkatkaa repository julkiseksi (public). Älkää lähettäkö kutsua. Voitte muuttaa repositoryn yksityiseksi tai poistaa sen, kun olen arvioinut työn. 
+Kun kaikki ovat tehneet commitin (*, lisätkää repositorynne URL-osoite tähän Moodle-tehtävään. Vain yhden ryhmäläisistä tarvitsee tehdä tämä.
+TESTATKAA vaikka selaimen Incognito-tilassa, että linkki toimii. 
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+***Palautettava viimeistään: ke 18.12.2024 klo 17.00***
+ 

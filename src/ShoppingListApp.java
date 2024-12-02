@@ -16,15 +16,17 @@ public class ShoppingListApp {
                 break;
             }
 
-            System.out.print("Add the amount of the item: (type 'x' to end): ");
+            System.out.print("Type the amount of item: (type 'x' to end): ");
             int amount = Integer.parseInt(scanner.nextLine());
             
-            shoppingList.add(amount + "x" + item);
+            shoppingList.add(amount + "x " + item);
         }
 
         for (String item : shoppingList) {
             System.out.println(item);
         }
+        
+        System.out.println("Have a nice day!");
 
         scanner.close();
     }

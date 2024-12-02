@@ -8,6 +8,8 @@ public class ShoppingListApp {
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> shoppingList = new ArrayList<>();
 
+        System.out.println("Welcome to the store");
+
         while (true) {
             System.out.print("Add an item to the shopping list (type 'x' to end): ");
             String item = scanner.nextLine();
@@ -16,13 +18,13 @@ public class ShoppingListApp {
                 break;
             }
 
-            System.out.print("Type the amount of item: (type 'x' to end): ");
+            System.out.print("Please insert the price of the item: (type 'x' to end): ");
             int amount = Integer.parseInt(scanner.nextLine());
             
             shoppingList.add(amount + "x " + item);
         }
 
-        for (String item : shoppingList) {
+        for (String item : shoppingList) { 
             System.out.println(item);
         }
         
